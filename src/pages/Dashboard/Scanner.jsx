@@ -84,7 +84,7 @@ const Scanner = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-5">
-        {studies.slice(0, 4).map((study) => (
+        {studies.map((study) => (
           <div>
 
             <h3 className="text-sm text-[#049F30] mb-2">{study.name}</h3>
